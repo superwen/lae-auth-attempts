@@ -10,7 +10,7 @@ Add captcha and login attempts for laravel-admin
 ### Installation
 
 ```
-composer require manzhouya/auth-attempts
+composer require superwen/lae-auth-attempts
 ```
 
 ### Configuration

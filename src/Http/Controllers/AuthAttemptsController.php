@@ -27,7 +27,7 @@ class AuthAttemptsController extends BaseAuthController
             return redirect($this->redirectPath());
         }
 
-        return view('auth-attempts::login');
+        return view(config('admin.login_view', 'auth-attempts::login'));
     }
 
     public function postLogin(Request $request)
